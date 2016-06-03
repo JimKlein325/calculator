@@ -1,8 +1,15 @@
-var add = function(number1, number2) {
-  return number1 + number2;
-};
 
-var number1 = parseInt(prompt("Enter a number:"));
-var number2 = parseInt(prompt("Enter another number:"));
-var result = add(number1, number2);
-alert(result);
+$(document).ready(function() {
+
+  $("h1").click(function() {
+    alert("This is a header.");
+  });
+
+  $("p").click(function() {
+    alert("This isa paragraph.")
+  });
+
+  $("img").click( function() {
+    alert("This is an image.")
+  });
+});
